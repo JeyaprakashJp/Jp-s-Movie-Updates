@@ -1,0 +1,243 @@
+/* ===============================
+   Author: {YOUR NAME HERE}
+   Date:   {DATE HERE}
+   
+   Notes:
+   Hand coded for Build a Website
+   from Scratch with HTML & CSS
+   by Brad Hussey
+   
+   Colour Palette:
+   ---------------
+   Light Cream:		#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */at
+body{
+   background-image: #f2f3ee url('../images/frustration.png')top left repeat;
+  /* background: #f2f3ee url('../images/bg-tile.gif') top left repeat;*/
+   color: #4b2707;
+   font-size: 14px;
+   font-family: 'Open Sans', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+ -webkit-font-smoothing: antialiased;
+ text-rendering: optimizeLegibility;
+
+}
+.container{
+   width: 924px;
+   margin: 0 auto;
+   padding: 30px 24px;
+}
+.container1{
+   text-align: center;
+   margin: 0px;
+   padding: 0px;
+   display:block;
+   list-style-type: none;
+   line-height:141px ;
+}
+.one{
+   font-size: 21px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+
+/* Typography */
+h1,h2{
+   color: #d17f38;
+   font-size: 40px;
+   font-weight: normal;
+   font-family: 'Love Ya Like A Sister', cursive;
+   line-height: 44px;
+   margin: 0;
+}
+h1{
+   text-align: center;
+   padding: 0 0 20px;
+   background:url('../images/header-divider.png')bottom center no-repeat
+}
+h1 em{
+   font-style:normal;
+   color:#4b2707 ;
+}
+h2{
+   font-size: 34px;
+}
+h3{
+   margin: 0;
+}
+
+p{
+   margin: 0;
+}
+a:link{
+   color: #d17f38;
+}
+a:visited{
+   color: #d17f38;
+}
+a:hover{
+   color:#4b2707;
+}
+hr{
+   border: none;
+   height: 32px;
+   width: 333px;
+   margin: 30px auto;
+   background:url('../images/divider.png')center center no-repeat;
+}
+/* Header */
+
+header nav {
+   text-align: center;
+
+}
+header nav ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: block;
+   line-height:141px ;
+}
+header nav ul li{
+   display: inline-block;
+   padding : 0 20px;
+}
+header nav ul li a{
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+
+}
+header nav  ul li a:hover{
+   color: #4b2707;
+   padding: 20px;
+   background: url('../images/tiny-donut.png') top center no-repeat;
+}
+header nav ul li#logo a{
+    display: block;
+    width: 292px;
+    height: 200px;
+   text-indent: +1;
+    
+}
+header nav ul li#logo a:hover{
+   padding: 0;
+  /* background:url('../images/logo01.png') center center no-repeat;*/
+}
+
+/* Hero */
+#hero{
+   background: url('../images/bg-tile-yellow.gif')top left repeat;
+}
+#hero .container{
+   position: relative;
+}
+#hero .large-ribbon{
+   height: 190px;
+   width: 250px;
+   background: url('../images/moviereview2.png')top left no-repeat;
+   text-indent: -9999px;
+   position: absolute;
+   top: -33px;
+   right: -50px;
+}   
+
+/* The Whole Story */
+#story-excerpt{
+   width: 530px;
+   margin-right: 24px;
+   float: left;
+   font-size:16px ;
+}
+#best-donut{
+   background: url('../images/award.png') left center no-repeat;
+   padding: 10px 0px 30p 130px;/*TRBL*/
+   padding-left: 130px;
+   padding-bottom:40px ;
+   float: left;
+   width: 240px;
+   
+}
+#logo{
+   font-size: 24px;
+}
+/* News & Events */
+#articles{
+   width: 370px;
+   float: left;
+   margin-right: 24px;
+}
+#feature-image{
+ 
+   width: 530px;
+   float: left;
+   padding-bottom: 50px;
+}
+#news-events article{
+   margin: 20px 0px;
+   padding-left: 55px;
+}
+#news-events article.event{
+   background: url('../images/icon-news.png')top left no-repeat;
+}
+#news-events article header section h3.news{
+   background: url('../images/icon-calendar.png')top left no-repeat;
+}
+#news-events header time{
+   color: #d17f38;
+   font:12px ;
+}
+#pele{
+   color: #d17f38;
+   font:12px ;
+}
+#excerpt{
+   margin: 7px 0px;
+
+}
+.footer{
+   font-size: 6px;
+}
+/* Footer */
+footer.main{
+   background: #4b2707  url('../images/bg-tile-brown.gif')top left repeat;
+   color: #f2f3ee;
+   padding: 30px 0px;
+}
+footer.main a:hover{
+   color: #f2f3ee;
+}
+#copyright, #credits{
+   width: 240px;
+   float: left;
+   padding: 10px 0px 10px 50px;}
+
+#copyright {
+   background: url('../images/icon-recycle.png') center left no-repeat;
+
+}   
+#credits{
+   background: url('../images/icon-apple.png')center left no-repeat;
+   float: right;
+}   
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
